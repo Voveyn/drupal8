@@ -1,0 +1,9 @@
+name: My Module
+description: Creates a page showing "My Module".
+package: Example
+
+type: module
+core: 8.x
+
+dependencies:
+- block

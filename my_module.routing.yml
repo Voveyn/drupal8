@@ -1,0 +1,8 @@
+my_module.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\my_module\Controller\MyModule::content'
+    _form: '\Drupal\my_module\Form\NewForm'
+    _title: 'Leave your request'
+  requirements:
+    _permission: 'access content'
